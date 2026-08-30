@@ -1,0 +1,201 @@
+index,mutator,payload_len,outcome,log_matches,verdict
+0,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+1,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+2,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+3,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+4,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+5,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+6,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+7,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+8,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+9,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+10,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+11,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+12,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+13,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+14,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+15,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+16,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+17,mutate_truncated_header,3,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+18,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+19,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+20,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+21,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+22,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+23,mutate_truncated_header,4,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+24,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+25,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+26,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+27,mutate_truncated_header,5,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+28,mutate_truncated_header,1,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+29,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+30,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+31,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+32,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+33,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+34,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+35,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+36,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+37,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+38,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+39,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+40,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+41,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+42,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+43,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+44,mutate_bit_flip,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+45,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+46,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+47,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+48,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+49,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+50,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+51,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+52,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+53,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+54,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+55,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+56,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+57,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+58,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+59,mutate_truncated_header,4,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+60,mutate_truncated_header,3,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+61,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+62,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+63,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+64,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+65,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+66,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+67,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+68,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+69,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+70,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+71,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+72,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+73,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+74,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+75,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+76,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+77,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+78,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+79,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+80,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+81,mutate_truncated_header,2,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+82,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+83,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+84,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+85,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+86,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+87,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+88,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+89,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+90,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+91,mutate_truncated_header,7,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+92,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+93,mutate_bit_flip,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+94,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+95,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+96,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+97,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+98,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+99,mutate_truncated_header,6,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+100,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+101,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+102,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+103,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+104,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+105,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+106,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+107,mutate_truncated_header,5,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+108,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+109,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+110,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+111,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+112,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+113,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+114,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+115,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+116,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+117,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+118,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+119,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+120,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+121,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+122,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+123,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+124,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+125,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+126,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+127,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+128,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+129,mutate_truncated_header,2,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+130,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+131,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+132,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+133,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+134,mutate_truncated_header,4,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+135,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+136,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+137,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+138,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+139,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+140,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+141,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+142,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+143,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+144,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+145,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+146,mutate_truncated_header,6,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+147,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+148,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+149,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+150,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+151,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+152,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+153,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+154,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+155,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+156,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+157,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+158,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+159,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+160,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+161,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+162,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+163,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+164,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+165,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+166,mutate_truncated_header,1,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+167,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+168,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+169,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+170,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+171,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+172,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+173,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+174,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+175,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+176,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+177,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+178,mutate_truncated_header,1,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+179,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+180,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+181,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+182,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+183,mutate_length_mismatch,38,sent+response,0,REVIEW - no matching log line found in window
+184,mutate_echo_request_storm,8,sent+response,0,REVIEW - no matching log line found in window
+185,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+186,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+187,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+188,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+189,mutate_ext_header_no_data,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+190,mutate_teid_flap,38,sent+response,0,REVIEW - no matching log line found in window
+191,mutate_truncated_header,2,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+192,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+193,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+194,mutate_jumbo_payload,38,sent+response,0,REVIEW - no matching log line found in window
+195,mutate_bad_version,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+196,mutate_bit_flip,38,sent+response,0,REVIEW - no matching log line found in window
+197,mutate_seq_flag_no_seq,8,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+198,mutate_bad_message_type,38,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
+199,mutate_truncated_header,5,sent+no_response,0,REVIEW - no log line and no response (silent drop?)
