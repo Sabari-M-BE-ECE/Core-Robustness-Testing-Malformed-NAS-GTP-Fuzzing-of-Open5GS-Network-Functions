@@ -1,4 +1,3 @@
-# WIPRO 5G Capstone — Slot 44
 ## Core Robustness Testing: Malformed NAS/GTP Fuzzing of Open5GS Network Functions
 
 **Stack used:** Python 3, Scapy, Open5GS (2.7.x), Wireshark, tcpdump
