@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+*.pcap
+*.pcap.manifest.csv
+injection_log.csv
+flags.csv
+findings_table.csv
+capture_run*.pcap
