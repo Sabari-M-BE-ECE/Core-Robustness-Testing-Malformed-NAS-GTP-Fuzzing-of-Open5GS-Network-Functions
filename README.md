@@ -194,7 +194,7 @@ genuinely dropped with no log line at all (the same silent-drop behaviour called
 GTP-U in the report). `log_monitor.py` says as much in its own comments — if you're
 seeing zero flagged lines, `grep` the live NF logs for `error|invalid|drop|discard|
 reject|fail` and extend the regex list to match what your specific build actually
-prints. The manual, line-by-line log inspection described in `REPORT/Capstone_Report.md`
+prints. The manual, line-by-line log inspection described in `REPORT/Report.md`
 (which is where the ~86%/~74% clean-reject figures and the single suspicious
 `mutate_oversized_ie` out-of-bounds-read line came from) is the more reliable source for
 this run; the automated join is included here precisely because its gap versus the
@@ -307,7 +307,7 @@ heavier) setup is to run [UERANSIM](https://github.com/aligungr/UERANSIM) as the
 simulator against your Open5GS AMF over real NGAP/SCTP, then patch its NAS-forwarding
 path (or write a small SCTP client with `pysctp`) to substitute the fuzzed NAS bytes
 into the `InitialUEMessage` / `UplinkNASTransport` payload before it goes over the wire.
-That's called out in `REPORT/Capstone_Report.md` as a natural next slot rather than
+That's called out in `REPORT/Report.md` as a natural next slot rather than
 in-scope here.
 
 ## Deliverables checklist (against the problem statement)
@@ -317,7 +317,7 @@ in-scope here.
 - [x] **Log correlation / classification tool** — `SCRIPTS/log_monitor.py`
 - [x] **Robustness findings** — the classification table above, `RESULT/Output images/`,
       `RESULT/wireshark_capture_notes.md`
-- [x] **Report** — `REPORT/Capstone_Report.md` (full methodology, scope decisions,
+- [x] **Report** — `REPORT/Report.md` (full methodology, scope decisions,
       limitations, references)
 
 ## Limitations, stated plainly
@@ -361,4 +361,4 @@ in-scope here.
     mutation- vs. generation-based fuzzing).
 
 Full write-up — methodology, scope decisions, and the same references in context —
-lives in **[`REPORT/Capstone_Report.md`](REPORT/Capstone_Report.md)**.
+lives in **[`REPORT/Report.md`](REPORT/Capstone_Report.md)**.
