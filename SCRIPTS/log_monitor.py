@@ -2,7 +2,7 @@
 """
 log_monitor.py
 ---------------
-Slot 44 - Core robustness testing (Open5GS)
+Core robustness testing (Open5GS)
 
 Two jobs:
   1. "watch" mode - tails one or more Open5GS NF log files live while

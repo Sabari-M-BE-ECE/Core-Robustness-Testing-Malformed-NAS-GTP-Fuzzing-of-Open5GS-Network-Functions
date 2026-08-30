@@ -2,7 +2,7 @@
 """
 nas_fuzzer.py
 -------------
-Slot 44 - Core robustness testing (Open5GS)
+Core robustness testing (Open5GS)
 
 Crafts malformed 5GS NAS (Non-Access Stratum) messages and writes them
 to a pcap file / feeds them to injector.py. Built with Scapy custom

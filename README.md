@@ -361,4 +361,4 @@ in-scope here.
     mutation- vs. generation-based fuzzing).
 
 Full write-up — methodology, scope decisions, and the same references in context —
-lives in **[`REPORT/Report.md`](REPORT/Capstone_Report.md)**.
+lives in **[`REPORT/Report.md`](REPORT/Report.md)**.

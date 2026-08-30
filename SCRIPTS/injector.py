@@ -2,7 +2,7 @@
 """
 injector.py
 -----------
-Slot 44 - Core robustness testing (Open5GS)
+Core robustness testing (Open5GS)
 
 Replays a fuzzed pcap (produced by nas_fuzzer.py or gtp_fuzzer.py) at a
 target Open5GS NF, one packet at a time, pacing the sends so that the

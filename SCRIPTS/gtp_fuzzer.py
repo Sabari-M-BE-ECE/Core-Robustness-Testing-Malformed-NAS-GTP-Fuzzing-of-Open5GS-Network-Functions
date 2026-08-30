@@ -2,7 +2,7 @@
 """
 gtp_fuzzer.py
 -------------
-Slot 44 - Core robustness testing (Open5GS)
+Core robustness testing (Open5GS)
 
 Crafts malformed GTP-U (GPRS Tunnelling Protocol - User plane, TS 29.281)
 packets aimed at the UPF's N3/N9 interface (default port 2152/udp).
