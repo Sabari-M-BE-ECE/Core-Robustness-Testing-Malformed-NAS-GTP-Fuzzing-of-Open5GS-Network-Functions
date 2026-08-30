@@ -1,0 +1,4 @@
+scapy>=2.5.0
+pysctp>=0.7.2      # only needed if you inject NAS over real SCTP/NGAP instead of the UDP test harness
+pandas>=2.0.0      # used by log_monitor.py to build findings table
+colorama>=0.4.6    # console highlighting for log_monitor.py
