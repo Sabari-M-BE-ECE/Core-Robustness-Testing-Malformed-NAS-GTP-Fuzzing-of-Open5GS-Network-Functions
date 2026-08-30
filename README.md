@@ -26,7 +26,7 @@ side — worth checking on a lab build before assuming the parsers are hardened.
 .
 ├── README.md
 ├── REPORT/
-│   └── Capstone_Report.md         # full write-up: methodology, per-NF classification, fixes
+│   └── Report.md         # full write-up: methodology, per-NF classification, fixes
 ├── SCRIPTS/
 │   ├── nas_fuzzer.py              # malformed 5GS NAS PDU generator -> pcap + manifest
 │   ├── gtp_fuzzer.py              # malformed GTP-U packet generator -> pcap + manifest
@@ -36,8 +36,8 @@ side — worth checking on a lab build before assuming the parsers are hardened.
 └── RESULT/
     ├── Output files/               # a real 20-packet sample run (pcaps + manifests) — inspect
     │                               # without needing Open5GS running first
-    ├── Output images/              # screenshots from the actual 200+200 packet lab run
-    └── wireshark_capture_notes.md  # what to filter for, and why NAS shows up as raw UDP
+    |
+    |── Output images/              # screenshots from the actual 200+200 packet lab run
 ```
 
 ## The lab this was actually run against
