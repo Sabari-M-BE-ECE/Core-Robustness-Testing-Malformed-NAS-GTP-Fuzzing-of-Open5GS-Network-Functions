@@ -362,3 +362,7 @@ in-scope here.
 
 Full write-up — methodology, scope decisions, and the same references in context —
 lives in **[`REPORT/Report.md`](REPORT/Report.md)**.
+
+## Contributors
+
+- Roopan Kumar N — [@roopankumar1404](https://github.com/roopankumar1404)
