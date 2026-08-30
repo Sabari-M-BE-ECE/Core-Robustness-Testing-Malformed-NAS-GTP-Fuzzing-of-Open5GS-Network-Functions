@@ -6,4 +6,4 @@ __pycache__/
 injection_log.csv
 flags.csv
 findings_table.csv
-capture_run.pcap
+capture_run*.pcap
