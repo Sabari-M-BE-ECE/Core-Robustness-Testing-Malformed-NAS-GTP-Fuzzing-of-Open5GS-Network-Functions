@@ -28,18 +28,36 @@ checks was done with `UERANSIM` in `nr-gnb`/`nr-ue` mode, but the actual
 fuzz injection bypasses the RAN entirely and talks straight to the AMF/UPF
 test sockets, which is faster to iterate on and keeps the fuzz corpus
 reproducible.
+```mermaid
+flowchart TD
+    A["nas_fuzzer.py / gtp_fuzzer.py<br/><small>Mutation-based generators</small>"]
+    B["pcap + manifest.csv<br/><small>Malformed corpus and mutator index</small>"]
+    C["injector.py<br/><small>Replays packets, logs outcome</small>"]
+    D["AMF NAS-shim<br/><small>127.0.0.5:38412 — NAS decoder</small>"]
+    E["UPF N3 socket<br/><small>127.0.0.7:2152 — GTP-U decoder</small>"]
+    F["tcpdump / Wireshark<br/><small>Captures the raw wire traffic</small>"]
+    G["log_monitor.py watch<br/><small>Tails AMF/UPF logs live</small>"]
+    H["log_monitor.py report<br/><small>Joins injection log with flagged lines</small>"]
+    I["findings_table.csv<br/><small>Per-packet verdict: PASS / FAIL / REVIEW</small>"]
 
-```
-[nas_fuzzer.py / gtp_fuzzer.py] --> pcap + manifest.csv
-        |
-        v
-[injector.py] --udp--> AMF NAS-shim (127.0.0.5:38412)   <- objective: NAS
-              --udp--> UPF N3 socket (127.0.0.7:2152)    <- objective: GTP-U
-        |
-        v
-[tcpdump / Wireshark]           [log_monitor.py watch]
-        |                                 |
-        +---------------> [log_monitor.py report] -> findings_table.csv
+    A --> B --> C
+    C --> D
+    C --> E
+    D --> F
+    E --> G
+    F --> H
+    G --> H
+    H --> I
+
+    classDef artifact fill:#EEEDFE,stroke:#534AB7,color:#26215C;
+    classDef target fill:#E1F5EE,stroke:#0F6E56,color:#04342C;
+    classDef observe fill:#FAECE7,stroke:#993C1D,color:#4A1B0C;
+    classDef process fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A;
+
+    class A,B,I artifact
+    class D,E target
+    class F,G observe
+    class C,H process
 ```
 
 ## Scope decision on the NAS transport (worth reading before running this)
