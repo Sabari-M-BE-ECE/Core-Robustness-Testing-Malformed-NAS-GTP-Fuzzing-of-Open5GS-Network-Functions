@@ -1,6 +1,6 @@
 # Core Robustness Testing — Malformed NAS/GTP Fuzzing of Open5GS Network Functions
 
-A mutation-based fuzzing toolkit built for a WIPRO 5G capstone slot. It crafts malformed
+A mutation-based fuzzing toolkit. It crafts malformed
 5GS NAS and GTP-U packets with Scapy, fires them at a locally running Open5GS core, and
 cross-checks the AMF/UPF logs against the injection timeline to work out which parser
 handled the bad input safely and which ones need hardening.
