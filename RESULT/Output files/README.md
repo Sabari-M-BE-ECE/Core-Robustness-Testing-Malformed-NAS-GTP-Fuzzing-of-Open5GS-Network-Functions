@@ -1,4 +1,4 @@
-# Example generator output
+# Output
 
 These four files are the actual, unmodified output of running:
 
